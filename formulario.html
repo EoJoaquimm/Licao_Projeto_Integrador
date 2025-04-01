@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+        <nav>
+            <ul>
+                <li><a href="paginaInicial.html">Voltar a página principal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <center><h2>FORMULÁRIO</h2></center>
+        <br>
+        <label for="nome"><b>Nome:</b></label>
+        <input type="text" id="nome" name="nome" placeholder="Joaquim" required><br>
+        
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" placeholder="joaquim123@email.com" required><br>
+        
+        <label for="data"><b>Data de Nascimento:</b></label>
+        <input type="date" id="data" name="data"><br>
+        
+        <label for="senha"><b>Senha:</b></label>
+        <input type="password" id="senha" name="senha" placeholder="********" required><br>
+        
+        <label for="genero"><b>Gênero:</b></label>
+        <select id="genero" name="genero">
+            <option value="selecione">Selecione uma opção</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
